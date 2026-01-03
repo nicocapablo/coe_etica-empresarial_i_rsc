@@ -130,7 +130,276 @@ const preguntasSentencias = [
 // --- MINITEST (3 OPCIONES) ---
 
 const preguntasMinitest = [
-  
+  {
+    texto: "Què és l’ètica?",
+    opciones: [
+      "a) Un conjunt de lleis obligatòries",
+      "b) Un conjunt de normes morals que guien la conducta humana",
+      "c) Un sistema econòmic"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "De què depèn l’ètica?",
+    opciones: [
+      "a) Només de la llei",
+      "b) Del context cultural, social i legal",
+      "c) Exclusivament de l’empresa"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Segons Sòcrates, fer el bé és:",
+    opciones: [
+      "a) Una qüestió de por al càstig",
+      "b) Una qüestió de saber",
+      "c) Una obligació legal"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quin filòsof relaciona la felicitat amb l’equilibri i la virtut?",
+    opciones: [
+      "a) Plató",
+      "b) Aristòtil",
+      "c) Sòcrates"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "L’ètica cristiana es basa principalment en:",
+    opciones: [
+      "a) El benefici econòmic",
+      "b) L’amor i el perdó",
+      "c) La competència"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "L’ètica musulmana està basada en:",
+    opciones: [
+      "a) La Bíblia",
+      "b) L’Alcorà",
+      "c) El Codi Civil"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Què és l’ètica empresarial?",
+    opciones: [
+      "a) L’aplicació de l’ètica a l’empresa",
+      "b) Només complir la llei",
+      "c) Una estratègia de màrqueting"
+    ],
+    correcta: "a"
+  },
+  {
+    texto: "L’ètica empresarial afecta:",
+    opciones: [
+      "a) Només els beneficis",
+      "b) Decisions econòmiques, socials i ambientals",
+      "c) Només els treballadors"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quin és un principi fonamental de l’ètica empresarial?",
+    opciones: [
+      "a) Maximitzar beneficis",
+      "b) Consciència moral",
+      "c) Competència agressiva"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quin avantatge aporta l’ètica empresarial?",
+    opciones: [
+      "a) Redueix la confiança",
+      "b) Millora la reputació",
+      "c) Augmenta conflictes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina pràctica evita l’ètica empresarial?",
+    opciones: [
+      "a) Transparència",
+      "b) Publicitat enganyosa",
+      "c) Responsabilitat"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Què implica l’equitat empresarial?",
+    opciones: [
+      "a) Benefici només per a l’empresa",
+      "b) Que tots els agents guanyin de manera justa",
+      "c) Ignorar la societat"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La integritat empresarial significa:",
+    opciones: [
+      "a) Dir una cosa i fer-ne una altra",
+      "b) Complir el que es promet",
+      "c) Prioritzar el benefici"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La sostenibilitat fa referència a:",
+    opciones: [
+      "a) Produir sense límits",
+      "b) Ús eficient dels recursos",
+      "c) Només creixement econòmic"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La RSC és:",
+    opciones: [
+      "a) Una obligació fiscal",
+      "b) Un compromís voluntari amb la societat",
+      "c) Un tipus d’impost"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La RSC va més enllà de:",
+    opciones: [
+      "a) Complir la llei",
+      "b) Produir més",
+      "c) Reduir salaris"
+    ],
+    correcta: "a"
+  },
+  {
+    texto: "Quin NO és un àmbit de la RSC?",
+    opciones: [
+      "a) Medi ambient",
+      "b) Drets humans",
+      "c) Competència agressiva"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "Què significa la coherència en RSC?",
+    opciones: [
+      "a) Fer màrqueting verd",
+      "b) Dir, decidir i fer el mateix",
+      "c) Prioritzar imatge"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "L’Agenda 2030 va ser aprovada:",
+    opciones: [
+      "a) El 2000",
+      "b) El 2010",
+      "c) El 2015"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "Quants ODS té l’Agenda 2030?",
+    opciones: [
+      "a) 10",
+      "b) 15",
+      "c) 17"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "Quin ODS promou el treball digne?",
+    opciones: [
+      "a) ODS 3",
+      "b) ODS 8",
+      "c) ODS 12"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El moviment B Corp busca:",
+    opciones: [
+      "a) Maximitzar beneficis",
+      "b) Impacte positiu en persones i planeta",
+      "c) Eliminar regulacions"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La certificació B Corp avalua:",
+    opciones: [
+      "a) Només beneficis econòmics",
+      "b) Impacte social, ambiental i governança",
+      "c) Exclusivament vendes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina és la puntuació mínima per ser B Corp?",
+    opciones: [
+      "a) 50 punts",
+      "b) 70 punts",
+      "c) 80 punts"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "L’economia d’impacte té en compte:",
+    opciones: [
+      "a) Només el benefici",
+      "b) Impacte social, ambiental i governança",
+      "c) Només impostos"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina opció defineix millor la RSC?",
+    opciones: [
+      "a) Política de terra cremada",
+      "b) Crear valor per a tots els grups d’interès",
+      "c) Benefici a curt termini"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Els ODS serveixen per:",
+    opciones: [
+      "a) Limitar el creixement",
+      "b) Millorar la qualitat de vida i protegir el planeta",
+      "c) Controlar empreses"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La RSC ajuda a:",
+    opciones: [
+      "a) Reduir la motivació",
+      "b) Atraure i retenir talent",
+      "c) Incrementar conflictes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Una empresa ètica busca:",
+    opciones: [
+      "a) Només guanyar diners",
+      "b) Equilibri econòmic, social i ambiental",
+      "c) Eliminar competència"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La RSC és la manera com les empreses:",
+    opciones: [
+      "a) Substitueixen els ODS",
+      "b) Contribueixen als ODS",
+      "c) Ignoren els ODS"
+    ],
+    correcta: "b"
+  }
 ];
 
 
@@ -283,6 +552,7 @@ function desactivarBotones() {
 // =======================
 
 document.addEventListener("DOMContentLoaded", mostrarMenuInicial);
+
 
 
 
